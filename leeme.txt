@@ -1,0 +1,24 @@
+para que el proyecto arranque:
+
+./SQL/base_de_datos.sql
+Deben montar la base de datos
+
+/.env
+poner la conexión a la base de datos
+Poner las credenciales de su email de notificaciones
+
+
+
+y deben correr en la consola (sobre el proyecto):
+php artisan cache:clear
+php artisan route:clear
+php artisan config:clear
+php artisan view:clear
+php artisan key:generate
+
+
+
+Para iniciar sesión:
+User: vicjulian19@gmail.com
+Contraseña: 12345678
+
